@@ -107,6 +107,7 @@ public class QProberSummaryGenerator {
 			contentSummaryFileGenerator.createOutputFile(categoryName, dbName,
 					map);
 			category = category.getParent();
+			
 		}
 	}
 }
